@@ -1,0 +1,115 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #d3af9e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+}
+
+.relative{
+    background-image: url(../img/WhatsApp\ Image\ 2025-03-05\ at\ 13.34.41.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.name {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.description {
+    color: #fff;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+}
+.description i {
+    color: #fff;
+}
+.card {
+
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:15px 15px;
+    margin-top: 2.5rem;
+}
+.card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.card p {
+    color: #b08a3e;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 1rem;
+    flex-grow: 1;
+}
+.card i {
+    color: #b08a3e;
+    font-size: 1.5rem;
+    margin-right: 10px;
+
+}
+
+
+
+.whatsapp-button {
+    background-color: #98acaf;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 10px;
+}
+.whatsapp-button i {
+    margin-right: 10px;
+   
+}
+@media (max-width: 640px) {
+    .container {
+        padding: 10px;
+        margin: 0 5%;
+    }
+    .relative{
+        width: 100px;
+        height: 100px;
+    }
+    .name {
+        font-size: 1rem;
+    }
+    .description {
+        font-size: 0.75rem;
+    }
+    .card {
+        padding: 0.75rem;
+        margin: 2% 3%;
+    }
+    .card p {
+        font-size: 0.875rem;
+    }
+    .whatsapp-button {
+        font-size: 0.75rem;
+        padding: 0.5rem;
+    }
+}
